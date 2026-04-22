@@ -1,0 +1,15 @@
+// ltl-bmp-io/main.ltl
+//
+// Bitmap (BMP) encoder / decoder with 24- and 32-bit depth.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-bmp-io v0.1.0")
+    io::println("Bitmap (BMP) encoder / decoder with 24- and 32-bit depth.")
+    0
+}
